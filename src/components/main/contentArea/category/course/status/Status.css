@@ -1,0 +1,10 @@
+.status {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d8d8d8;
+}
+
+.status-done {
+    background-color: #fddd5b;
+}

@@ -1,0 +1,19 @@
+.big-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 28px 10px 0 34px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.big-card-img-container {
+    width: 35px;
+    height: 35px;
+    margin-right: 18px;
+}
+
+.big-card-details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}

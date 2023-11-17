@@ -1,0 +1,30 @@
+.course-container-details-subcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 44px;
+}
+
+.course-container-details-subcontainer-title {
+    flex: 0.8;
+    color: #676767;
+    font-weight: bold;
+}
+
+.course-container-details-subcontainer-eval {
+    flex: 0.1;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.course-container-details-subcontainer-eval p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    color: #676767;
+}
+
+.course-container-details-subcontainer-eval-status {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
