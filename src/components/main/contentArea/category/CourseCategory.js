@@ -9,7 +9,7 @@ function CourseCategory({ category, image, courses }) {
                     key={course.title}
                     title={course.title}
                     duration={course.duration}
-                    status={course.status}
+                    progress={course.progress}
                 />
             ))}
         </BigCard>
