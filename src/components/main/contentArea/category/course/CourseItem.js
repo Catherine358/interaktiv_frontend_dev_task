@@ -1,8 +1,8 @@
-import Status from './status/Status';
+import Progress from './progress/Progress';
 
 import './CourseItem.css';
 
-function CourseItem({ title, duration, status, doneBy }) {
+function CourseItem({ title, duration, progress, doneBy }) {
     return (
         <div className="course-container-details-subcontainer">
             <div className="course-container-details-subcontainer-title">
@@ -15,7 +15,7 @@ function CourseItem({ title, duration, status, doneBy }) {
             <div className="course-container-details-subcontainer-eval">
                 <div className="course-container-details-subcontainer-eval-status">
                     {[...new Array(5)].map((s, index) => (
-                            <Status isDone={index < status} />
+                            <Progress key={'progress' + index} isDone={index < progress} />
                         )
                     )}
                 </div>
