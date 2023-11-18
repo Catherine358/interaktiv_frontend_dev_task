@@ -1,0 +1,5 @@
+.ui.basic.segment .header {
+    background-color: #0164b2;
+    color: @white;
+    justify-content: flex-end
+}

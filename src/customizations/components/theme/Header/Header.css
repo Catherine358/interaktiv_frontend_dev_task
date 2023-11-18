@@ -1,0 +1,24 @@
+.ui.basic.segment.header-wrapper {
+    height: 100px;
+    margin-bottom: 34px !important;
+    padding: 0 90px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #0164b2;
+}
+
+.ui.basic.segment .header {
+  /* it is not recommended to use important, but overrides files don't work and the guy from plone tutorial said that he has no time to understand why css doesn't pick up right */
+  justify-content: flex-end !important;
+}
+
+.logo-container {
+    margin: 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+}

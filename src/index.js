@@ -1,16 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Provider } from 'react-redux';
-import { store } from './redux/store';
-import App from './App';
+import start from '@plone/volto/start-server';
 
-import './index.css';
+const reloadServer = start();
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <React.StrictMode>
-        <Provider store={store}>
-            <App />
-        </Provider>
-    </React.StrictMode>
-);
+if (module.hot) {
+  reloadServer();
+}
