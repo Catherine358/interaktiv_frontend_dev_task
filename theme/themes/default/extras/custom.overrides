@@ -1,0 +1,4 @@
+.ui.basic.segment .header {
+    justify-content: flex-end;
+}
+
