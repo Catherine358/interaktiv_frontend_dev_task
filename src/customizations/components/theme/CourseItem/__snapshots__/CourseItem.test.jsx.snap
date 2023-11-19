@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseItem renders course item 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="course-container-details-subcontainer"
+        data-testid="course-item"
+      >
+        <div
+          class="course-container-details-subcontainer-title"
+        >
+          <p
+            data-testid="course-item-title"
+          >
+            My course
+          </p>
+        </div>
+        <div
+          class="course-container-details-subcontainer-eval"
+        >
+          <p>
+            10min
+          </p>
+          <p>
+            To be done by:
+          </p>
+        </div>
+        <div
+          class="course-container-details-subcontainer-eval"
+        >
+          <div
+            class="course-container-details-subcontainer-eval-status"
+          >
+            <span
+              class="status status-done"
+              data-testid="progress"
+            />
+            <span
+              class="status status-done"
+              data-testid="progress"
+            />
+            <span
+              class="status status-done"
+              data-testid="progress"
+            />
+            <span
+              class="status "
+              data-testid="progress"
+            />
+            <span
+              class="status "
+              data-testid="progress"
+            />
+          </div>
+          <p>
+            -
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="course-container-details-subcontainer"
+      data-testid="course-item"
+    >
+      <div
+        class="course-container-details-subcontainer-title"
+      >
+        <p
+          data-testid="course-item-title"
+        >
+          My course
+        </p>
+      </div>
+      <div
+        class="course-container-details-subcontainer-eval"
+      >
+        <p>
+          10min
+        </p>
+        <p>
+          To be done by:
+        </p>
+      </div>
+      <div
+        class="course-container-details-subcontainer-eval"
+      >
+        <div
+          class="course-container-details-subcontainer-eval-status"
+        >
+          <span
+            class="status status-done"
+            data-testid="progress"
+          />
+          <span
+            class="status status-done"
+            data-testid="progress"
+          />
+          <span
+            class="status status-done"
+            data-testid="progress"
+          />
+          <span
+            class="status "
+            data-testid="progress"
+          />
+          <span
+            class="status "
+            data-testid="progress"
+          />
+        </div>
+        <p>
+          -
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

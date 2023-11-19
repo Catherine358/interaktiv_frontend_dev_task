@@ -17,16 +17,17 @@ const ContentArea = () => {
   return (
       <section className="courses-container">
       <div>
-        <p className="courses-title">e-Learning Courses</p>
+        <p data-testid="courses-title" className="courses-title">e-Learning Courses</p>
       </div>
-      {coursesGroupedByCategories.map((category) => (
+      {coursesGroupedByCategories.length > 0 ? coursesGroupedByCategories.map((category) => (
           <CourseCategory
               key={category.name}
               category={category.name}
               image={category.image}
               courses={category.courses}
+              dataTestId="category"
           />
-      ))}
+      )) : <p>There are no courses</p>}
       </section>
   );
 };

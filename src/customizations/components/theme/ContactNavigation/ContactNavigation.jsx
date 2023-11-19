@@ -3,7 +3,7 @@ import TitleView from '../TitleView/TitleView';
 import './ContactNavigation.css';
 
 const ContactNavigation = () => (
-    <section className="sidebar-contact">
+    <section>
       <TitleView title="Contact" />
       <div className="sidebar-contact-el">
         <p className="sidebar-contact-el-title">Technical support</p>

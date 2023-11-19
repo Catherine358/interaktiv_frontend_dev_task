@@ -1,11 +1,12 @@
+import PropTypes from 'prop-types';
 import Progress from '../Progress/Progress';
 
 import './CourseItem.css';
 
 const CourseItem = ({ title, duration, progress, doneBy }) => (
-    <div className="course-container-details-subcontainer">
+    <div className="course-container-details-subcontainer" data-testid="course-item">
       <div className="course-container-details-subcontainer-title">
-        <p>{title}</p>
+        <p data-testid="course-item-title">{title}</p>
       </div>
       <div className="course-container-details-subcontainer-eval">
         <p>{duration}</p>
@@ -24,3 +25,17 @@ const CourseItem = ({ title, duration, progress, doneBy }) => (
   );
 
 export default CourseItem;
+
+CourseItem.propTypes = {
+  title: PropTypes.string.isRequired,
+  duration: PropTypes.string.isRequired,
+  progress: PropTypes.number.isRequired,
+  doneBy: PropTypes.string
+};
+
+CourseItem.defaultProps = {
+  title: '',
+  duration: '',
+  progress: 0,
+  doneBy: '-'
+};
