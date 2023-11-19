@@ -1,12 +1,12 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 
-import SmallView from './SmallView';
+import SmallCardView from './SmallCardView';
 
-describe('SmallView', () => {
-  it('renders small view container', () => {
+describe('SmallCardView', () => {
+  it('renders small card view container', () => {
     const component = render(
-      <SmallView title="Hello" image="Some image"  />
+      <SmallCardView title="Hello" image="Some image"  />
     );
     expect(component).toMatchSnapshot();
     expect(screen.getByText(/hello/i)).toBeInTheDocument();

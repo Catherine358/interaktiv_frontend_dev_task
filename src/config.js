@@ -11,8 +11,17 @@
 
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line
+import { Main, FullView, TitleView, BigCardView, SmallCardView } from './components';
 import '@plone/volto/config';
 
 export default function applyConfig(config) {
+  config.views.layoutViews = {
+    ...config.views.layoutViews,
+    main_view: Main,
+    full_view: FullView,
+    small_card_view: SmallCardView,
+    big_card_view: BigCardView,
+    title_view: TitleView
+  };
   return config;
 }

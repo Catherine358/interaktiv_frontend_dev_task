@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Progress from '../Progress/Progress';
+import Progress from './Progress/Progress';
 
 import './CourseItem.css';
 

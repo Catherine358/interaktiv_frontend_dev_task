@@ -1,4 +1,4 @@
-import TitleView from '../TitleView/TitleView';
+import { TitleView } from '../../Views';
 
 import './ContactNavigation.css';
 

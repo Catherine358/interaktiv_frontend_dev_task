@@ -1,5 +1,5 @@
-import SidebarNavigation from '../SidebarNavigation/SidebarNavigation';
-import ContactNavigation from '../ContactNavigation/ContactNavigation';
+import SidebarNavigation from './SidebarNavigation/SidebarNavigation';
+import ContactNavigation from './ContactNavigation/ContactNavigation';
 
 import './Sidebar.css';
 

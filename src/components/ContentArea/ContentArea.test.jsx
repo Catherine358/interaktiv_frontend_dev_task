@@ -5,7 +5,7 @@ import configureStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 
 import ContentArea from './ContentArea';
-import { fraudPrevention } from '../../../../assets';
+import { fraudPrevention } from '../../assets';
 
 const middlewares = [thunk];
 const mockStore = configureStore(middlewares);

@@ -1,3 +1,7 @@
+div.ui.horizontal.segments {
+  flex-wrap: wrap;
+}
+
 div.ui.secondary.vertical.segment.breadcrumbs {
   background-color: white;
   padding-right: 10px;
@@ -24,4 +28,15 @@ div.ui.secondary.vertical.segment.breadcrumbs.admin {
   flex: 0.3;
   color: white;
   background-color: #676767;
+}
+
+@media screen and (max-width: 685px) {
+  div.ui.horizontal.segments {
+    flex-direction: column;
+  }
+
+  div.ui.secondary.vertical.segment.breadcrumbs,
+  div.ui.secondary.vertical.segment.breadcrumbs.admin {
+    flex: 1;
+  }
 }

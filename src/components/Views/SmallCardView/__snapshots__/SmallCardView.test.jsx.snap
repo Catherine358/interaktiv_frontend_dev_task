@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SmallView renders small view container 1`] = `
+exports[`SmallCardView renders small card view container 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
