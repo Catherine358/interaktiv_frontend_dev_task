@@ -1,0 +1,11 @@
+.sidebar {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 685px) {
+  .sidebar {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

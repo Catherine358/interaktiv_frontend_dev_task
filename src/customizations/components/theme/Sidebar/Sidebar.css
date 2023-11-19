@@ -1,9 +1,0 @@
-.sidebar {
-    margin-bottom: 20px;
-}
-
-@media screen and (max-width: 530px) {
-    .sidebar-container {
-        flex: 1;
-    }
-}

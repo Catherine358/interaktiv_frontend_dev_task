@@ -1,8 +1,7 @@
 import { Provider } from 'react-redux';
 import { store } from '../../../../store';
-import FullView from '../FullView/FullView';
 import Breadcrumbs from '../Breadcrumbs/Breadcrumbs';
-import Main from '../Main/Main';
+import { FullView, Main } from '../../../../components';
 
 import './App.css';
 

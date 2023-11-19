@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
-import BigView from '../BigView/BigView';
-import CourseItem from '../CourseItem/CourseItem';
+import CourseItem from './CourseItem/CourseItem';
+import { BigCardView } from '../../Views';
 
 const CourseCategory = ({ category, image, courses, dataTestId }) => (
-    <BigView category={category} image={image} dataTestId={dataTestId}>
+    <BigCardView category={category} image={image} dataTestId={dataTestId}>
       {courses.map((course) => (
         <CourseItem
           key={course.title}
@@ -12,7 +12,7 @@ const CourseCategory = ({ category, image, courses, dataTestId }) => (
           progress={course.progress}
         />
       ))}
-    </BigView>
+    </BigCardView>
   );
 
 export default CourseCategory;

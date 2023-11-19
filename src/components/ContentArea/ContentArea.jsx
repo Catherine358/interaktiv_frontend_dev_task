@@ -1,8 +1,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchCourses, getCourses } from '../../../../slices/coursesSlice';
-import CourseCategory from '../CourseCategory/CourseCategory';
-
+import { fetchCourses, getCourses } from '../../slices/coursesSlice';
+import CourseCategory from './CourseCategory/CourseCategory';
 
 import './ContentArea.css';
 

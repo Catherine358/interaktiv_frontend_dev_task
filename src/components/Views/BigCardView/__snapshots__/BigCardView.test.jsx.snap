@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BigView renders a big view item 1`] = `
+exports[`BigCardView renders a big card view item 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

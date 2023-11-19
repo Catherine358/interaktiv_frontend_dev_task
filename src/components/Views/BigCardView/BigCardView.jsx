@@ -1,9 +1,9 @@
 import { Image, Segment } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 
-import './BigView.css';
+import './BigCardView.css';
 
-const BigView = (props) => {
+const BigCardView = (props) => {
   const { image, category, dataTestId } = props;
 
   return (
@@ -18,15 +18,15 @@ const BigView = (props) => {
   );
 };
 
-export default BigView;
+export default BigCardView;
 
-BigView.propTypes = {
+BigCardView.propTypes = {
   image: PropTypes.string.isRequired,
   category: PropTypes.string.isRequired,
   dataTestId: PropTypes.string.isRequired
 };
 
-BigView.defaultProps = {
+BigCardView.defaultProps = {
   image: '',
   category: '',
   dataTestId: ''

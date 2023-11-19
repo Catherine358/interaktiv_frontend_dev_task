@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Header from '../Header/Header';
+import { Header } from '../../../customizations/components';
 
 import './FullView.css';
 

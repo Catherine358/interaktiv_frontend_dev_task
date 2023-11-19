@@ -1,13 +1,13 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import { dataProtection } from '../../../../assets';
+import { dataProtection } from '../../../assets';
 
-import BigView from './BigView';
+import BigCardView from './BigCardView';
 
-describe('BigView', () => {
-  it('renders a big view item', () => {
+describe('BigCardView', () => {
+  it('renders a big card view item', () => {
     const component = render(
-      <BigView image={dataProtection} category="Data Protection"  />
+      <BigCardView image={dataProtection} category="Data Protection"  />
     );
     expect(component).toMatchSnapshot();
     const image = component.getByAltText('Data Protection');
