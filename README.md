@@ -1,6 +1,8 @@
 ## Documentation
 
 [Volto Hands-On](https://training.plone.org/voltohandson/index.html) is a training on how to create your own website.
+This is a sample project created with html, css, react and redux and connected to Volto.
+An overview view for an e-learning platform showing grouped by category courses.
 
 ## Quick Start
 
