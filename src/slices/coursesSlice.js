@@ -21,7 +21,7 @@ const slice = createSlice({
     reducers: {},
     extraReducers: (builder) => {
         builder.addCase(fetchCourses.fulfilled, (state, { payload }) => {
-            // I have no idea what the data looks like and I believe in BE, but in case courses are not grouped by category
+            // in case courses are not grouped by category
             state.courses = payload.courses.reduce((arr, curr) => {
                 const existingCategoryInd = arr.findIndex((c) => c.name === curr.category);
                 if (existingCategoryInd < 0) {

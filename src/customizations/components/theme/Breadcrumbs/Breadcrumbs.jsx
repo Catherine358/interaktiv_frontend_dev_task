@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { Breadcrumb, Container, Segment } from 'semantic-ui-react';
 import { Icon } from '@plone/volto/components';
 import rightKey from '@plone/volto/icons/right-key.svg';
@@ -15,12 +14,9 @@ const Breadcrumbs = () => (
     >
       <Container>
         <Breadcrumb>
-          <Link
-            to={'/'}
-            className="section"
-          >
+          <a href={'/'}>
             Home Page
-          </Link>
+          </a>
           <Icon name={rightKey} size="18px" />
           <Breadcrumb.Section active>
             e-Learning Courses

@@ -1,0 +1,532 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main renders main content layout 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="main"
+      >
+        <section
+          class="sidebar"
+        >
+          <section
+            class="sidebar-nav"
+          >
+            <div
+              class="title-container"
+            >
+              <p>
+                Navigation
+              </p>
+            </div>
+            <div
+              class="ui segment"
+              data-testid="navigation-item"
+              horizontal="true"
+            >
+              <div
+                class="small-card-img-container"
+              >
+                <img
+                  alt="Money Laundering and Fraud Prevention"
+                  class="ui image"
+                  height="35"
+                  src="fraud_prevention.png"
+                  width="35"
+                />
+              </div>
+              <p>
+                Money Laundering and Fraud Prevention
+              </p>
+            </div>
+            <div
+              class="ui segment"
+              data-testid="navigation-item"
+              horizontal="true"
+            >
+              <div
+                class="small-card-img-container"
+              >
+                <img
+                  alt="IT security and information security"
+                  class="ui image"
+                  height="35"
+                  src="it_security.png"
+                  width="35"
+                />
+              </div>
+              <p>
+                IT security and information security
+              </p>
+            </div>
+            <div
+              class="ui segment"
+              data-testid="navigation-item"
+              horizontal="true"
+            >
+              <div
+                class="small-card-img-container"
+              >
+                <img
+                  alt="Data Protection"
+                  class="ui image"
+                  height="35"
+                  src="data_protection.png"
+                  width="35"
+                />
+              </div>
+              <p>
+                Data Protection
+              </p>
+            </div>
+            <div
+              class="ui segment"
+              data-testid="navigation-item"
+              horizontal="true"
+            >
+              <div
+                class="small-card-img-container"
+              >
+                <img
+                  alt="WpHG-Compliance"
+                  class="ui image"
+                  height="35"
+                  src="wphg.png"
+                  width="35"
+                />
+              </div>
+              <p>
+                WpHG-Compliance
+              </p>
+            </div>
+          </section>
+          <section>
+            <div
+              class="title-container"
+            >
+              <p>
+                Contact
+              </p>
+            </div>
+            <div
+              class="sidebar-contact-el"
+            >
+              <p
+                class="sidebar-contact-el-title"
+              >
+                Technical support
+              </p>
+              <p
+                class="sidebar-contact-el-text"
+              >
+                John Doe
+              </p>
+              <a
+                class="sidebar-contact-el-email"
+              >
+                it@example.com
+              </a>
+            </div>
+            <div
+              class="sidebar-contact-el"
+            >
+              <p
+                class="sidebar-contact-el-title"
+              >
+                Content-didactic topics
+              </p>
+              <p
+                class="sidebar-contact-el-text"
+              >
+                Jane Roe
+              </p>
+              <a
+                class="sidebar-contact-el-email"
+              >
+                content@example.com
+              </a>
+            </div>
+          </section>
+        </section>
+        <section
+          class="courses-container"
+        >
+          <div>
+            <p
+              class="courses-title"
+              data-testid="courses-title"
+            >
+              e-Learning Courses
+            </p>
+          </div>
+          <div
+            class="ui segment big-view"
+            data-testid="category"
+            horizontal="true"
+          >
+            <div
+              class="big-card-img-container"
+            >
+              <img
+                alt="First category"
+                class="ui image"
+                height="35"
+                src="Some image"
+                width="35"
+              />
+            </div>
+            <div
+              class="big-card-details"
+            >
+              <div
+                class="course-container-details-subcontainer"
+                data-testid="course-item"
+              >
+                <div
+                  class="course-container-details-subcontainer-title"
+                >
+                  <p
+                    data-testid="course-item-title"
+                  >
+                    First course
+                  </p>
+                </div>
+                <div
+                  class="course-container-details-subcontainer-eval"
+                >
+                  <p>
+                    15min
+                  </p>
+                  <p>
+                    To be done by:
+                  </p>
+                </div>
+                <div
+                  class="course-container-details-subcontainer-eval"
+                >
+                  <div
+                    class="course-container-details-subcontainer-eval-status"
+                  >
+                    <span
+                      class="status "
+                      data-testid="progress"
+                    />
+                    <span
+                      class="status "
+                      data-testid="progress"
+                    />
+                    <span
+                      class="status "
+                      data-testid="progress"
+                    />
+                    <span
+                      class="status "
+                      data-testid="progress"
+                    />
+                    <span
+                      class="status "
+                      data-testid="progress"
+                    />
+                  </div>
+                  <p>
+                    -
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="main"
+    >
+      <section
+        class="sidebar"
+      >
+        <section
+          class="sidebar-nav"
+        >
+          <div
+            class="title-container"
+          >
+            <p>
+              Navigation
+            </p>
+          </div>
+          <div
+            class="ui segment"
+            data-testid="navigation-item"
+            horizontal="true"
+          >
+            <div
+              class="small-card-img-container"
+            >
+              <img
+                alt="Money Laundering and Fraud Prevention"
+                class="ui image"
+                height="35"
+                src="fraud_prevention.png"
+                width="35"
+              />
+            </div>
+            <p>
+              Money Laundering and Fraud Prevention
+            </p>
+          </div>
+          <div
+            class="ui segment"
+            data-testid="navigation-item"
+            horizontal="true"
+          >
+            <div
+              class="small-card-img-container"
+            >
+              <img
+                alt="IT security and information security"
+                class="ui image"
+                height="35"
+                src="it_security.png"
+                width="35"
+              />
+            </div>
+            <p>
+              IT security and information security
+            </p>
+          </div>
+          <div
+            class="ui segment"
+            data-testid="navigation-item"
+            horizontal="true"
+          >
+            <div
+              class="small-card-img-container"
+            >
+              <img
+                alt="Data Protection"
+                class="ui image"
+                height="35"
+                src="data_protection.png"
+                width="35"
+              />
+            </div>
+            <p>
+              Data Protection
+            </p>
+          </div>
+          <div
+            class="ui segment"
+            data-testid="navigation-item"
+            horizontal="true"
+          >
+            <div
+              class="small-card-img-container"
+            >
+              <img
+                alt="WpHG-Compliance"
+                class="ui image"
+                height="35"
+                src="wphg.png"
+                width="35"
+              />
+            </div>
+            <p>
+              WpHG-Compliance
+            </p>
+          </div>
+        </section>
+        <section>
+          <div
+            class="title-container"
+          >
+            <p>
+              Contact
+            </p>
+          </div>
+          <div
+            class="sidebar-contact-el"
+          >
+            <p
+              class="sidebar-contact-el-title"
+            >
+              Technical support
+            </p>
+            <p
+              class="sidebar-contact-el-text"
+            >
+              John Doe
+            </p>
+            <a
+              class="sidebar-contact-el-email"
+            >
+              it@example.com
+            </a>
+          </div>
+          <div
+            class="sidebar-contact-el"
+          >
+            <p
+              class="sidebar-contact-el-title"
+            >
+              Content-didactic topics
+            </p>
+            <p
+              class="sidebar-contact-el-text"
+            >
+              Jane Roe
+            </p>
+            <a
+              class="sidebar-contact-el-email"
+            >
+              content@example.com
+            </a>
+          </div>
+        </section>
+      </section>
+      <section
+        class="courses-container"
+      >
+        <div>
+          <p
+            class="courses-title"
+            data-testid="courses-title"
+          >
+            e-Learning Courses
+          </p>
+        </div>
+        <div
+          class="ui segment big-view"
+          data-testid="category"
+          horizontal="true"
+        >
+          <div
+            class="big-card-img-container"
+          >
+            <img
+              alt="First category"
+              class="ui image"
+              height="35"
+              src="Some image"
+              width="35"
+            />
+          </div>
+          <div
+            class="big-card-details"
+          >
+            <div
+              class="course-container-details-subcontainer"
+              data-testid="course-item"
+            >
+              <div
+                class="course-container-details-subcontainer-title"
+              >
+                <p
+                  data-testid="course-item-title"
+                >
+                  First course
+                </p>
+              </div>
+              <div
+                class="course-container-details-subcontainer-eval"
+              >
+                <p>
+                  15min
+                </p>
+                <p>
+                  To be done by:
+                </p>
+              </div>
+              <div
+                class="course-container-details-subcontainer-eval"
+              >
+                <div
+                  class="course-container-details-subcontainer-eval-status"
+                >
+                  <span
+                    class="status "
+                    data-testid="progress"
+                  />
+                  <span
+                    class="status "
+                    data-testid="progress"
+                  />
+                  <span
+                    class="status "
+                    data-testid="progress"
+                  />
+                  <span
+                    class="status "
+                    data-testid="progress"
+                  />
+                  <span
+                    class="status "
+                    data-testid="progress"
+                  />
+                </div>
+                <p>
+                  -
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
